@@ -12,8 +12,8 @@ from dateutil.relativedelta import relativedelta
 
 # Colocar nome na pagina, icone e ampliar a tela
 st.set_page_config(
-    page_title="Portfolio - Guillermo Cerato",
-    page_icon="💻",
+    page_title="Wisdom Chatbot",
+    page_icon="🧿",
     layout="wide"
 )
 
@@ -56,10 +56,9 @@ def centrar_texto(texto, tamanho, color):
 def centrar_texto_link(link_texto, link_url, tamanho, color):
     texto_html = f"<h{tamanho} style='text-align: center; color: {color}'><a href='{link_url}' target='_blank'>{link_texto}</a></h{tamanho}>"
     st.markdown(texto_html, unsafe_allow_html=True)
+    
+################################################## Background da pagina #############################################################
 
-page_bg_img = f"""
-<style>
-[data-testid="stAppViewContainer"] > .main {{
 background-image: url("https://i.postimg.cc/J7Qkwt4s/pxfuel-1.jpg");
 background-size: 180%;
 background-position: top left;
@@ -79,3 +78,4 @@ right: 2rem;
 st.markdown(page_bg_img, unsafe_allow_html=True)
 
 st.write("#")
+########################################################################################################################################
