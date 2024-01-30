@@ -61,7 +61,7 @@ def centrar_texto_link(link_texto, link_url, tamanho, color):
 page_bg_img = f"""
 <style>
 [data-testid="stAppViewContainer"] > .main {{
-background-image: url("https://i.postimg.cc/J7Qkwt4s/pxfuel-1.jpg");
+background-image: url("https://i.postimg.cc/13V5gQqn/Design-sem-nome.png");
 background-size: 180%;
 background-position: top left;
 background-repeat: repeat;
