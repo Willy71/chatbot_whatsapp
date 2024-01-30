@@ -58,7 +58,9 @@ def centrar_texto_link(link_texto, link_url, tamanho, color):
     st.markdown(texto_html, unsafe_allow_html=True)
     
 ################################################## Background da pagina #############################################################
-
+page_bg_img = f"""
+<style>
+[data-testid="stAppViewContainer"] > .main {{
 background-image: url("https://i.postimg.cc/J7Qkwt4s/pxfuel-1.jpg");
 background-size: 180%;
 background-position: top left;
